@@ -1,6 +1,6 @@
 ARG BITNAMI_POSTGRES_TAG=15.10.0-debian-12-r2
 FROM busybox AS builder
-ADD https://github.com/tensorchord/pgvecto.rs/releases/download/v0.2.0/vectors-pg15_x86_64-unknown-linux-gnu_0.2.0.zip /tmp/vectors.zip
+ADD https://github.com/tensorchord/pgvecto.rs/releases/download/v0.2.1/vectors-pg15_x86_64-unknown-linux-gnu_0.2.1.zip /tmp/vectors.zip
 RUN unzip /tmp/vectors.zip -d /tmp/vectors
 
 
